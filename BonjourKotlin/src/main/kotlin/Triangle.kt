@@ -3,7 +3,13 @@ package org.Walsh
 fun main(){
 
 
+    var etoile = "*"
 
-    print("* \n**\n***\n****")
-    
+   for(i in 1..4){
+
+
+       etoile +=  etoile+"*\n"
+
+   }
+    println(etoile)
 }
